@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../style/output.css" rel="stylesheet">
+    <title>Tela Login</title>
+</head>
+<body>
+    <main class="min-h-screen grid grid-cols-1 md:grid-cols-2">
+        <section class="bg-slate-100 w-full flex justify-center items-center">
+            <div class="w-full px-5 md:px-10">
+                <img src="../src/assets/user.png" alt="logo usuário" class="w-32 mx-auto mb-4">
+                <h1 class="text-gray-900 font-bold text-5xl text-center">Login</h1>
+
+                <form action="#" class="mt-8 w-full mx-auto">
+                    <div class="flex flex-col mb-4">
+                        <input type="email" id="email" required class="bg-white font-medium border border-gray-300 p-2 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-900" placeholder="Digite seu email">
+                    </div>
+                    <div class="flex flex-col mb-6">
+                        <input type="password" id="password" required class="bg-white font-medium border border-gray-300 p-2 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-900" placeholder="Digite sua senha">
+
+                        <div class="flex mt-2 px-1">
+                            <input type="checkbox" id="remember" class="mr-2 mb-5">
+                            <label for="remember" class="text-sm font-medium text-gray-900">Lembrar senha</label>
+                            <a href="#" class="text-sm font-medium text-blue-600 hover:underline mb-6 inline-block ml-auto">Esqueceu sua senha?</a>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="w-full bg-blue-600 text-white font-bold py-2 rounded-xl cursor-pointer hover:bg-blue-700 transition duration-300">Acessar</button>
+                    
+                    <div class="flex justify-center gap-1 mt-6 px-1">
+                        <p class="text-sm font-medium text-gray-900">Não tem conta?</p>
+                        <a href="#" class="text-sm font-medium text-blue-600 hover:underline mb-6 inline-block ">Criar uma conta</a>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="bg-blue-600 h-screen w-full justify-center items-center hidden md:flex">
+            <div class="w-full px-5 md:px-10">
+                <h1 class="text-white font-light text-5xl text-center">Domine as <span class="font-bold">tecnologias mais buscadas</span> pelo mercado!</h1>
+                <img src="../src/assets/techs.png" alt="logo tecnologias" class="w-100 mx-auto mb-4 mt-10">
+            </div>
+        </section>
+    </main>
+</body>
+</html>
