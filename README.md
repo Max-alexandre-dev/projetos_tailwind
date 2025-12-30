@@ -1,2 +1,2 @@
-# projetos_tailwind
+# Projetos com Tailwind
 "Projetos desenvolvidos com Tailwind CSS para fortalecer e aprofundar meus conhecimentos na biblioteca, praticar boas práticas de design responsivo, componentização e utilidades de estilização moderna."
